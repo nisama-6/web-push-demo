@@ -13,10 +13,6 @@
   "engines": {
     "node": "18.x"
   },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/push-notifications-client-codelab-incomplete"
-  },
-  "license": "Apache-2.0",
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
