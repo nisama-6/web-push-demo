@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Codelab: Build a push notifications client",
   "main": "server.js",
+  ""
   "scripts": {
     "clean": "[ -e .data/db.json ] && rm .data/db.json",
     "start": "vite",
@@ -12,7 +13,7 @@
     "web-push": "3.4.1"
   },
   "engines": {
-    "node": "8.15.1"
+    "node": "18.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/push-notifications-client-codelab-incomplete"
