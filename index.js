@@ -136,12 +136,7 @@ async function createCurlCommand(endpoint) {
       new Error("Subject must be either a mailto or " + "http link")
     );
   }
-
-  if (typeof exp !== "number") {
-    // The `exp` field will contain the current timestamp in UTC plus
-    // twelve hours.
-    exp = Math.floor(Date.now() / 1000 + 12 * 60 * 60);
-  }
+  const  exp = Math.floor(Date.now() / 1000 + 12 * 60 * 60); 
 
   const publicApplicationServerKey = base64UrlToUint8Array(vapidKeys.publicKey);
   const privateApplicationServerKey = base64UrlToUint8Array(
