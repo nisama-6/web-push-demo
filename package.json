@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "clean": "[ -e .data/db.json ] && rm .data/db.json",
-    "start": "vite"
+    "start": "vite",
+    "build":"vite build"
   },
   "dependencies": {
     "web-push": "3.4.1"
