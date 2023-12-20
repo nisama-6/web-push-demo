@@ -1,0 +1,26 @@
+{
+  "name": "push-notifications-server-codelab-incomplete",
+  "version": "1.0.0",
+  "description": "Codelab: Build a push notifications client",
+  "main": "server.js",
+  "scripts": {
+    "clean": "[ -e .data/db.json ] && rm .data/db.json",
+    "start": "vite"
+  },
+  "dependencies": {
+    "web-push": "3.4.1"
+  },
+  "engines": {
+    "node": "8.15.1"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/push-notifications-client-codelab-incomplete"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.10"
+  }
+}

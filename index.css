@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+    @apply px-4 py-2 bg-green-500 rounded text-white hover:bg-green-400 disabled:bg-green-300;
+}

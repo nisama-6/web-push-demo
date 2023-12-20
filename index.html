@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="/index.js" async></script>
+    <link href="/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="max-w-3xl mx-auto overflow-x-hidden">
+      <h1 class="text-3xl text-center">Push notification demo</h1>
+      <noscript>
+        You have JavaScript disabled. This app requires JavaScript to work.
+      </noscript>
+      <div class="flex max-w-60 mx-auto mt-20 flex-col gap-4">
+        <button id="subscribe" disabled>Subscribe to push</button>
+        <button id="unsubscribe" disabled>Unsubscribe from push</button>
+      </div>
+      <code class="bg-[#24292e] p-4 block mt-6 overflow-x-hidden rounded-md text-white break-all empty:hidden" id="code"></code>
+    </main>
+  </body>
+</html>
